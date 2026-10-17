@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.logoContainer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  padding-left: 425px;
+  padding-right: 425px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  
+
+}
+
+.info{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+*{
+  box-sizing: border-box;
+}
